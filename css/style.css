@@ -1,0 +1,80 @@
+
+
+.contacto{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.imcontact{
+    width: 500px;
+    
+}
+@media(max-width: 768px){
+    .imcontact{
+        flex-direction: column;
+    }
+}
+
+
+.or{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end; /* Alineación a la izquierda */
+}
+
+form {
+    width: 300px; /* Ancho del formulario */
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+
+
+}
+
+
+.contened {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagen {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center
+ 
+ 
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  p {
+    text-align: center;
+  }
